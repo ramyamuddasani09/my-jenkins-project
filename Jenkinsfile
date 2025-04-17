@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello greeting from GitHub!'
+                echo 'Hello greeting from GitHub good Morning!'
             }
         }
     }
