@@ -1,22 +1,9 @@
 pipeline {
     agent any
-
     stages {
-        stage('Pull Code') {
+        stage('Hello') {
             steps {
-                echo 'Pulling code from the GitHub..'
-            }
-        }
-
-        stage('Build') {
-            steps {
-                echo 'Building the project...'
-            }
-        }
-
-        stage('Test') {
-            steps {
-                echo 'Running tests...'
+                echo 'Hello from GitHub!'
             }
         }
     }
